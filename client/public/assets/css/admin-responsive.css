@@ -1,0 +1,138 @@
+
+@media (min-width:992px){
+    .menu-res 
+    {
+        display: none;
+    }
+}
+@media (min-width:768px){
+}
+@media (min-width:480px){
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .dsh-user-wrap {
+        width: calc(100%/5);
+        float: left;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .dsh-user-wrap {
+        width: calc(100%/4);
+        float: left;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .dsh-user-wrap {
+        width: calc(100%/4);
+        float: left;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .dsh-user-wrap {
+        width: calc(100%/3);
+        float: left;
+    }
+    .log-sec-wrap {
+        max-width: 450px;
+    }
+}
+@media (min-width:480px) and (max-width:575px){
+    .dsh-user-wrap {
+        width: calc(100%/2);
+        float: left;
+    }
+    .log-sec-wrap {
+        max-width: 450px;
+    }
+}
+@media (max-width:1199px){
+    .chat-list-wrap .row {
+        margin: 0;
+        display: block;
+    }
+    .chat-list-wrap .col-lg-4,
+    .chat-list-wrap .col-lg-8
+    {
+        padding: 0;
+    }
+    .white-box.re-chat {
+        margin-bottom: 20px;
+    }
+    .bread-crumb
+    {
+        display: block;
+    }
+    .add-link {
+        float: none;
+        margin-top: 12px;
+    }
+}
+@media (max-width:991px){
+    body.full-width {
+        overflow: hidden;
+    }
+    .menu-res 
+    {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+    .inner-wrapper
+    {
+        margin-left: 0;
+    }
+    .left-sidebar
+    {
+        left: -270px;
+    }
+    .full-width .ad-wrapper .left-sidebar {
+        left: 0px;
+    }
+}
+@media (max-width:767px){
+    .d-in-bck {
+        display: block;
+    }
+    .navbar-right.admin-avator
+    {
+        float: right;
+    }
+    .dropdown-menu.ad-dropdown-menu
+    {
+        left: -125px;
+    }
+}
+@media (max-width:479px){
+    .main-top h1
+    {
+        padding-right: 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .dsh-user-wrap {
+        width: calc(100%/1);
+        float: left;
+    }
+    .form-action {
+    margin-top: 5px;
+}
+    .page-wrapper {
+        margin-top: 20px;
+    }
+    .stk-wrap 
+    {
+        width: 100%;
+    }
+    .main-bot h1 
+    {
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .bread-crumb li a
+    {
+        font-size: 11px;
+    }
+    .log-sec-wrap {
+        max-width:330px;
+    }
+}
